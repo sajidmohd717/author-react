@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+a {
+  text-decoration: none; /* Removes the underline */
+  color: inherit; /* Inherits the color from the parent element */
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+    font-family: futura-pt;
+    color: #999999;
+    font-weight: 400;
+}
+
+.header-container {
+    padding-top: 75px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    gap: 40px;
+}
+
+h1 {
+    font-family: futura-pt;
+    font-weight: 500;
+    font-style: normal;
+    color: #707070;
+}
