@@ -1,11 +1,13 @@
-import book1 from "./assets/book1.png"
 
-function BookComponent() {
-
-    return (<>
-    <img className="book-img" src={book1} alt="" />
-    <p className="book-title">Hello</p>
-    </>)
+function BookComponent(props) {
+  return (
+    <>
+      <div className="book-div">
+        <img className="book-img" src={props.bookImage} alt="" />
+        <p className="book-title">{props.bookName}</p>
+      </div>
+    </>
+  );
 }
 
-export default BookComponent
+export default BookComponent;
